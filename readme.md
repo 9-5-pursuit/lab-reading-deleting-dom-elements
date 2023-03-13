@@ -40,3 +40,5 @@ To complete the tests in this lab, you will need to remove a number of elements 
 - [ ] Remove the `span` element that contains the "Read Time" in the featured post. The featured post is the first post on the page.
 - [ ] Remove the last post from the page, titled "Stop Planning".
 - [ ] Remove all titles from all non-featured posts.
+
+https://akirabrown.github.io/lab-reading-deleting-dom-elements/
