@@ -1,20 +1,14 @@
-// Method 1: Using the remove() method
+const allPostLink = document.querySelector("header nav ul li:first-child");
+allPostLink.remove();
 
-let linkSection = document.querySelector("header nav ul li");
-linkSection.remove();
+const featSpan = document.querySelector(".featured article aside p span");
+featSpan.remove();
 
-// Method 2: Removing the first span element
+const lastPost = document.querySelector(".posts article:last-child");
+lastPost.remove();
 
-let spanSection = document.querySelector("section article aside p span");
-spanSection.remove();
+const nonFeatPostTitles = document.querySelectorAll(".posts h3");
 
-// Method 3: Is removing the last element from the list
-
-let allArticles = document.querySelectorAll("article");
-allArticles[3].remove();
-
-let allH3 = document.querySelectorAll("h3");
-
-for (let i = 0; i < allH3.length; i++) {
-  allH3[i].remove();
+for (let i = 0; i < nonFeatPostTitles.length; i++) {
+  nonFeatPostTitles[i].remove();
 }
