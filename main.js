@@ -1,4 +1,4 @@
-let ap = document.querySelector('li');
+let ap = document.querySelector('header nav ul li');
 
 ap.remove()
 
