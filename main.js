@@ -7,5 +7,5 @@ span.remove();
 let lastPost = document.querySelector(" .posts article:last-child")
 lastPost.remove();
 
-let allTitles= document.querySelectorAll("main .posts, h3")
-allTitles.forEach((element)=>element.remove)
+let allTitles= document.querySelectorAll(".posts article h3")
+allTitles.forEach((element)=>{element.remove()})
