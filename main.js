@@ -4,3 +4,7 @@ let readTime = document.querySelector("aside span");
 readTime.remove(); // removed "Read Time" element from aside span
 let lastArticle = document.querySelector(".posts article:last-child");
 lastArticle.remove(); // removed "Last Article" element from page body
+let removeAlltitles = document.querySelectorAll(".posts article h3");
+removeAlltitles.forEach((title) => {
+  title.remove();
+});
